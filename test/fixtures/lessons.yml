@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_time: 2016-12-07 15:42:54
+  duration: 1
+  max_bookings: 1
+  title: MyString
+  description: MyText
+  current_bookings: 1
+  state: MyString
+
+two:
+  start_time: 2016-12-07 15:42:54
+  duration: 1
+  max_bookings: 1
+  title: MyString
+  description: MyText
+  current_bookings: 1
+  state: MyString

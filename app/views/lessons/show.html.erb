@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @lesson.start_time %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @lesson.duration %>
+</p>
+
+<p>
+  <strong>Max bookings:</strong>
+  <%= @lesson.max_bookings %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @lesson.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @lesson.description %>
+</p>
+
+<p>
+  <strong>Current bookings:</strong>
+  <%= @lesson.current_bookings %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @lesson.state %>
+</p>
+
+<%= link_to 'Edit', edit_lesson_path(@lesson) %> |
+<%= link_to 'Back', lessons_path %>
